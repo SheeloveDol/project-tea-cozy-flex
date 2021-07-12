@@ -1,0 +1,98 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  /* height: 50px; */
+  
+}
+
+nav {
+  display: flex;
+  width: 30%;
+  text-decoration: underline;
+  justify-content: space-between
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: ;
+}
+
+section.mission {
+  display: flex;
+  background-image: url("/images/img-mission-background.webp") ;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+div#statement {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+}
+
+section.container-featured {
+  display: flex;
+  width: 1000px;
+}
+
+.featured-items {
+  display: flex;
+  width: 1000px;
+}
+
+.box {
+  height: 200px;
+  width: 300px;
+  
+}
+
+#one {
+  background-image: url("images/img-berryblitz.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#two {
+  background-image: url("images/img-spiced-rum.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#three {
+  background-image: url("images/img-donut.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#four {
+  background-image: url("images/img-myrtle-ave.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#five {
+  background-image: url("images/img-bedford-bizarre.webp");
+  background-size: cover;
+  background-position: center;
+}
